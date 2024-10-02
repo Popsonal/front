@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">POPUP_STORE</string>
+    <string name="home">Home</string>
+    <string name="데이트코스">데이트코스</string>
+    <string name="hot">인기(HOT)</string>
+    <string name="date">" 데이트 코스"</string>
+    <string name="map_button_description">Map</string>
+    <string name="map_button_text">Map</string>
+    <string name="home_button_description">Home</string>
+    <string name="home_button_text">Home</string>
+    <string name="event_button_description">Event</string>
+    <string name="event_button_text">Event</string>
+    <string name="mypage_button_description">MyPage</string>
+    <string name="image_button1_description">DateCourse</string>
+    <string name="image_button2_description">HOT</string>
+    <string name="mypage_button_text">MyPage</string>
+    <string name="image_button3_description">hotple</string>
+    <string name="hotple">핫플</string>
+</resources>
