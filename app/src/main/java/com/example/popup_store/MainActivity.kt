@@ -14,6 +14,7 @@ import com.example.popup_store.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,24 +40,28 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
+
                 R.id.fragment_map -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragment_container, MapFragment())
                         .commit()
                     true
                 }
+
                 R.id.fragment_event -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragment_container, EventFragment())
                         .commit()
                     true
                 }
-                R.id.fragment_mypage -> {
+
+                R.id.fragment_myPage -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragment_container, MyPageFragment())
                         .commit()
                     true
                 }
+
                 else -> false
             }
         }

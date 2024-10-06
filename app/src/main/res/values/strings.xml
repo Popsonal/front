@@ -16,4 +16,9 @@
     <string name="mypage_button_text">MyPage</string>
     <string name="image_button3_description">hotple</string>
     <string name="hotple">핫플</string>
+    <string name="text_myPage">마이페이지</string>
+    <string name="text_profileTitle">프로필</string>
+    <string name="text_username">사용자명</string>
+    <string name="button_modifyProfile">프로필 수정</string>
+    <string name="text_listTitle">목록</string>
 </resources>

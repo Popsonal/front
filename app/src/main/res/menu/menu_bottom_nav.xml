@@ -11,9 +11,13 @@
     <item
         android:id="@+id/fragment_event"
         android:title=""
-        android:icon="@drawable/ic_event"/>
+        android:icon="@drawable/icon_search"/>
     <item
-        android:id="@+id/fragment_mypage"
+        android:id="@+id/fragment_myPage"
         android:icon="@drawable/icon_mypage"
+        android:title="" />
+    <item
+        android:id="@+id/fragment_chatbot"
+        android:icon="@drawable/icon_chat"
         android:title="" />
 </menu>
