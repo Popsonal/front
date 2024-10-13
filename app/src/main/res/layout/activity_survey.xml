@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="누구와 방문할 예정인가요?"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioCouple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연인" />
+
+        <RadioButton
+            android:id="@+id/radioFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="친구" />
+
+        <RadioButton
+            android:id="@+id/radioFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가족" />
+
+        <RadioButton
+            android:id="@+id/radioAlone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="혼자" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음 단계"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
