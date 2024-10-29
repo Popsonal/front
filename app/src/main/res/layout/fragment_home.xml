@@ -70,34 +70,31 @@
         android:gravity="center"
         android:text="@string/date"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton1"
-        app:layout_constraintHorizontal_bias="0.434"
-        app:layout_constraintStart_toStartOf="@+id/imageButton1"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="340dp" />
 
     <!-- DateCourse -->
+
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="384dp"
         android:contentDescription="@string/image_button3_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@drawable/ic_seongsu" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="66dp"
         android:layout_height="18dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/hot"
         app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 

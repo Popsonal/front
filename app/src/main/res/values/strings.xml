@@ -20,5 +20,7 @@
     <string name="text_profileTitle">프로필</string>
     <string name="text_username">사용자명</string>
     <string name="button_modifyProfile">프로필 수정</string>
-    <string name="text_listTitle">목록</string>
+    <string name="text_listTitle">리뷰</string>
+    <string name="popupStoreTitle">팝업스토어 제목</string>
+    <string name="popupStoreDescription">여기에 팝업스토어 설명이 들어갑니다. 자세한 정보를 포함하여 사용자에게 매력을 어필하세요.</string>
 </resources>
